@@ -25,10 +25,35 @@ public class marshmallowMonster
 			this.monsterBellyButton = monsterBellyButton;
 		}
 		
+		public String getmonsterName()
+		{
+			return monsterName;
+		}
+		
+		public int getMonsterEyes()
+		{
+			return monsterEyes;
+		}
+		
+		public void setMonsterName(String monsterName)
+		{
+			this.monsterName = monsterName;
+		}
+		
+		public void setMonsterEyes(int monsterEyes)
+		{
+			this.monsterEyes = monsterEyes;
+		}
+		
 		public String toString()
 		{
+			
+			{
 			String monsterInfo = " legs and its' name is " + monsterLegs + " Legs and its' name is " + monsterName;
 		
 
+			return monsterInfo;
+		}
 		}
 }
+

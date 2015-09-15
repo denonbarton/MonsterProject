@@ -4,7 +4,7 @@ public class MonsterRunner
 {
 	public static void main (String [] args)
 	{
-		MarshmallowController myController = new MarshmallowController();
+		MonsterController myController = new MonsterController();
 		myController.start();
 		
 	}
