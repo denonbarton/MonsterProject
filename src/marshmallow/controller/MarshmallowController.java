@@ -22,7 +22,7 @@ public class MarshmallowController
 		
 		monsterScanner = new Scanner(System.in);
 		myDisplay = new MonsterDisplay();
-		denonMonster = new marshmallowMonster(name, eyes, noses, hasBellyButton, Legs, hair);
+		denonMonster = new marshmallowMonster(name, eyes, noses, hasBellyButton, legs, hair);
 	
 	 }
 			
