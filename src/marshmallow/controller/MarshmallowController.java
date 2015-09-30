@@ -22,7 +22,8 @@ public class MarshmallowController
 		
 		monsterScanner = new Scanner(System.in);
 		myDisplay = new MonsterDisplay();
-		denonMonster = new MarshmallowMonster (name, eyes, noses, hasBellyButton, legs, hair );
+		denonMonster = new marshmallowMonster (name, eyes, hasBellyButton, noses, legs, hair );
+		// 
 	
 	 }
 			
@@ -37,59 +38,46 @@ public class MarshmallowController
 	
 	
 	{
-	System.out.println("I want a new name for a monster, type one please!");
-	String newMonsterName = monsterScanner.next();
-	denonMonster.setMonsterName(newMonsterName);
-	
-	System.out.println("I want a new name for a monster, type one please!");
-	int updatedNoses = monsterScanner.nextInt();
-	denonMonster.setMonsterName(newMonsterName);
-	
-	System.out.println("I want a new name for a monster, type one please!");
-	Double newupdatedLegs = monsterScanner.nextDouble();
-	denonMonster.setMonsterName(newMonsterName);
-	
-	System.out.println("I want a new name for a monster, type one please!");
-	Double newupdatedHair = monsterScanner.nextDouble();
-	denonMonster.setMonsterName(newMonsterName);
-	
-	System.out.println("I want a new name for a monster, type one please!");
-	Boolean newupdatedBellyButtons = monsterScanner.nextBoolean();
-	denonMonster.setMonsterName(newMonsterName);
-	
+		String newMonsterName = monsterScanner.next();
+        denonMonster.setMonsterName(newMonsterName);
+       
+        System.out.println("How many eyes should I have?");
+        int updatedEyes = monsterScanner.nextInt();
+        denonMonster.setMonsterEyes(updatedEyes);
+        System.out.println("How many noses should I have?");
+        int updatedNoses = monsterScanner.nextInt();
+        denonMonster.setMonsterNoses(updatedNoses);
+        System.out.println("How many legs?");
+        double updatedLegs = monsterScanner.nextDouble();
+        System.out.println("How much hair?");
+        double updatedHair = monsterScanner.nextDouble();
+        System.out.println("Should I have a belly button? True or False.");
+        boolean updatedBellyButton = monsterScanner.nextBoolean();
 	}
 	/**
 	 *  Creates a MarshMallowMonster instance from use input.
 	 */
 	
 	private void createUserMonster()	
-	}
-
-	System.out.Println("What is your monsters name?");
-	String userName
-	userName = monsterScanner.nextline();
-	
-	system.out.println("How many legs will it have? this is a decimal value");
-	double userLegs = monsterScanner.nextDouble()
-	
-	Sytem.out.println("How much hair does it have, another decimal value");
-	double userHair = monsterscanner.nextInt()
-	
-	userHair = monsterscanner.nextDouble()
-	System.out.println("does it have a belly button? ture or false");
-	boolean hasBellyButton = monsterScanner.nextBoolean()
-	
-	System.out.println("number of eyes on the monster");
-	int userEyes = monsterScanner.nextInt()
-	
-	System.out.println("How many noses does it have?");
-	int userNoses = monsterScanner.nextInt()
-	
-	
 	{
-		
+
+	System.out.println("What is your monsters name? boop.");
+    String userName;
+    userName = monsterScanner.nextLine();
+    System.out.println("How many legs will it have? This is a decimal value. meep.");
+    double userLegs = monsterScanner.nextDouble();
+    System.out.print("How much hair does it have? Another decimal please. beep.");
+    double userHair;
+    userHair = monsterScanner.nextDouble();
+    System.out.println("Does it have a belly button? True or False. blep.");
+    boolean hasBellyButton = monsterScanner.nextBoolean();
+    System.out.println("Number of eyes on the monster. pepe");
+    int userEyes = monsterScanner.nextInt();
+    System.out.println("How many noses? sqwoop.");
+    int userNoses = monsterScanner.nextInt();
+	
+	
 	}
-}
 }
 
 
