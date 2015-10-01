@@ -9,12 +9,10 @@ public class marshmallowMonster
 		private double monsterHair;
 		private boolean monsterBellyButton;
 		
-		private marshmallowMonster()
+		public marshmallowMonster()
 		{
 			
-			
 		}
-		
 		public marshmallowMonster(String monsterName, int monsterEyes, boolean monsterBellyButton, int monsterNoses, double monsterLegs, double monsterHair)
 		{
 			this.monsterName = monsterName;
