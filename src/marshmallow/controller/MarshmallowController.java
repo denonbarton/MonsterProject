@@ -23,7 +23,6 @@ public class MarshmallowController
 		monsterScanner = new Scanner(System.in);
 		myDisplay = new MonsterDisplay();
 		denonMonster = new marshmallowMonster (name, eyes, hasBellyButton, noses, legs, hair );
-		// 
 	
 	 }
 			
@@ -40,16 +39,20 @@ public class MarshmallowController
 	{
 		String newMonsterName = monsterScanner.next();
         denonMonster.setMonsterName(newMonsterName);
-       
         System.out.println("How many eyes should I have?");
+        
         int updatedEyes = monsterScanner.nextInt();
         denonMonster.setMonsterEyes(updatedEyes);
         System.out.println("How many noses should I have?");
+        
         int updatedNoses = monsterScanner.nextInt();
         denonMonster.setMonsterNoses(updatedNoses);
         System.out.println("How many legs?");
+        
         double updatedLegs = monsterScanner.nextDouble();
+        denonMonster.setMonsterlegs(updatedLegs);
         System.out.println("How much hair?");
+        
         double updatedHair = monsterScanner.nextDouble();
         System.out.println("Should I have a belly button? True or False.");
         boolean updatedBellyButton = monsterScanner.nextBoolean();
@@ -75,6 +78,8 @@ public class MarshmallowController
     int userEyes = monsterScanner.nextInt();
     System.out.println("How many noses? sqwoop.");
     int userNoses = monsterScanner.nextInt();
+    
+    userMonster = new MarshmallowMonster(userName, userEyes, hasBellyButton, userNoses, userLegs, userHair);
 	
 	
 	}

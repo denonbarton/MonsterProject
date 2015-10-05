@@ -1,4 +1,5 @@
 package marshmallow.model;
+import javax.swing.JOptionPane;
 
 public class marshmallowMonster
 {
@@ -40,16 +41,20 @@ public class marshmallowMonster
 		{
 			return monsterHair;
 		}
-		
 		public boolean getmonsterBellyButton()
 		{
+			
+			
 			return monsterBellyButton;
 		}
 		public void setMonsterName(String monsterName)
 		{
 			this.monsterName = monsterName;
 		}
-		
+		public void setMonsterNoses(int monsterNoses)
+		{
+			this.monsterNoses = monsterNoses;
+		}
 		public void setMonsterEyes(int monsterEyes)
 		{
 			this.monsterEyes = monsterEyes;
